@@ -1,6 +1,8 @@
 # SETTING UP LOGGING ON EKS CLUSTER USING THE LOKI-PROMTAIL-GRAFANA STACK.
 
-Hello readers, welcome to my page. This project describes a complete setup of logging for your application deployed on EKS cluster. It provides you with a pre-designed dashboard using the Loki-Promtail-Grafana stack. 
+Hello readers, welcome to my page. This project describes a complete setup of logging for your application deployed on EKS cluster. It provides you with a pre-designed dashboard using the Loki-Promtail-Grafana stack.
+
+I'm excited to share this project and show you a centralized logging handson experience for an application using the Grafana Loki + Promtail stack!
 
 Promtail scrape the logs using a pull mechanism from your kubernetes cluster and Loki stores and indexes the logs more efficiently and  Grafana visualizes them for analysis and monitoring. 
 
