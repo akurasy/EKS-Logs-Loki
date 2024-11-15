@@ -64,11 +64,24 @@ kubectl get secret --namespace default loki-grafana -o jsonpath="{.data.admin-pa
 ```
 
 # Create dashboard with the ID 
+
+Select dashboard
+Click on new
+Click import
+Add the dashboard ID
+
 ```
 15141
 ```
 
+![dashboard page](./images/dash1.png)
+
+Select Loki Default as the data source. Then click on Load to load the new dashboard
+
+![Import page](./images/dash2.png)
+
 You can set the desired namespace and select the service type you want to view the logging. 
 
+![logging page](./images/dash3.png)
 
 # Happy Logging!
